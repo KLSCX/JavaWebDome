@@ -7,21 +7,14 @@
         <welcome-file>index.jsp</welcome-file>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
-    <servlet>
-        <servlet-name>ex</servlet-name>
-        <jsp-file>/WEB-INF/experiment2/test6.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ex</servlet-name>
-        <url-pattern>/ex</url-pattern>
-    </servlet-mapping>
 
+    <!--登录页面-->
     <servlet>
-        <servlet-name>ex2</servlet-name>
-        <jsp-file>/WEB-INF/experiment2/test5_other.jsp</jsp-file>
+        <servlet-name>login</servlet-name>
+        <servlet-class>top.vuhe.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ex2</servlet-name>
-        <url-pattern>/test5_other.jsp</url-pattern>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/login</url-pattern>
     </servlet-mapping>
 </web-app>
