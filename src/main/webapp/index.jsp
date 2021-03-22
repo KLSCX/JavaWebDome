@@ -11,7 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-Hello World!
-<%=request.getContextPath()%>
+<h1>
+    Hello World!
+</h1>
 </body>
 </html>

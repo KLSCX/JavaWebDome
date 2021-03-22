@@ -16,7 +16,6 @@
     <input type="text" name="user" value="${param.user}"/><br><br>
     <label>密码：</label>
     <input type="password" name="password"/><br>
-
     <div id="submit">
         <input type="submit" value="登录"/>
     </div>
