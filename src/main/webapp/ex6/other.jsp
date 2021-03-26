@@ -31,8 +31,7 @@
         }
     }
 
-    private String checkUser(String name) {
-        String username = "zhuhe";
+    private String checkUser(String username) {
         User user = sqlSession.selectOne("UserMapper.getUserByName", username);
         if (user == null) {
             return "find no user";
