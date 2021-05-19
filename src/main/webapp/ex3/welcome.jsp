@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<p>用户名：<%=request.getParameter("user")%></p><br>
+<p>用户：<%=request.getParameter("user")%></p><br>
 <p>sessionID：<%=session.getId()%></p><br>
 <p>登录时间：<%=new Date()%></p><br>
 <p>cookie列表：</p><br>
